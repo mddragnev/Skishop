@@ -24,7 +24,7 @@ export class ShopComponent implements OnInit {
     { name: 'Price: High to Low', value: 'priceDesc' }
   ];
 
-  @ViewChild('search', { static: true })
+  @ViewChild('search', { static: false })
   public searchTerm: ElementRef;
 
   constructor(private shopService: ShopService) { }
