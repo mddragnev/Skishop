@@ -1,0 +1,25 @@
+.form-floating {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+  }
+  
+  .form-floating .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-floating .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-floating input[type="email"] {
+    
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-floating input[type="password"] {
+    
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
